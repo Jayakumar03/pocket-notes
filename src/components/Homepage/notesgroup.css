@@ -24,6 +24,7 @@
   color: antiquewhite;
   text-align: center;
   margin-top: 10px;
+  transition: all 0.5s ease-in-out;
 }
 
 .group-container {
@@ -63,6 +64,15 @@
   background-color: rgb(211, 141, 50);
 }
 
+.container > button:hover {
+  scale: 1.1;
+  translate:  10px ;
+}
+
+
+.group-container > button:hover {
+  scale: 1.1;
+}
 /* Modal css styles */
 
 .modal-overlay {
