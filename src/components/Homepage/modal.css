@@ -1,0 +1,107 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+}
+
+.modalContainer {
+  background-color: rgb(223, 220, 216);
+  width: 600px;
+  height: 300px;
+  display: block;
+  position: relative;
+  padding: 10px;
+  top: 25%;
+  left: 45%;
+  border-radius: 10px;
+}
+
+.title {
+  /* text-align: center; */
+  margin: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: start;
+  align-items: start;
+  margin: 10px;
+}
+
+.input-container > input {
+  width: 65%;
+  height: 30px;
+  font-size: larger;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 15px;
+  border: none;
+}
+.input-container > h3 {
+  margin-top: 35px;
+}
+
+.colors {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 30px;
+  border: none;
+}
+
+#cancel-Btn {
+  border: none;
+  background-color: rgb(223, 220, 216);
+  color: brown;
+  width: 20px;
+  height: 20px;
+  font-size: larger;
+}
+
+#create-Btn {
+  position: relative;
+  left: 70%;
+  top: 20px;
+  color: white;
+  width: 150px;
+  height: 30px;
+  font-size: large;
+  background-color: black;
+  border-radius: 15px;
+  border: none;
+}
+
+.colors:active{
+  border: 3px solid black;
+}
+
+.colors:hover{
+  scale:1.1;
+}
+/* button colors */
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#brown {
+  background-color: brown;
+}
+
+#saddlebrown {
+  background-color: saddlebrown;
+}
