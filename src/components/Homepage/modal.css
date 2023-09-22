@@ -10,7 +10,7 @@
   display: block;
   position: relative;
   padding: 10px;
-  top: 25%;
+  top: 15%;
   left: 45%;
   border-radius: 10px;
 }
@@ -73,12 +73,12 @@
   border: none;
 }
 
-.colors:active{
+.colors:active {
   border: 3px solid black;
 }
 
-.colors:hover{
-  scale:1.1;
+.colors:hover {
+  scale: 1.1;
 }
 /* button colors */
 
